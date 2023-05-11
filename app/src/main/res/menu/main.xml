@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/credits"
+        android:title="credits"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/dataRec"
+        android:title="data reception"
+        android:orderInCategory="200"/>
+    <item
+        android:id="@+id/displayAndDel"
+        android:title="display and delete"
+        android:orderInCategory="300"/>
+    <item
+        android:id="@+id/sortAndFilter"
+        android:title="sort and filter"
+        android:orderInCategory="400"/>
+</menu>

@@ -12,6 +12,15 @@
         android:theme="@style/Theme.SqLite"
         tools:targetApi="31">
         <activity
+            android:name=".credits"
+            android:exported="false" />
+        <activity
+            android:name=".sortAndFilter"
+            android:exported="false" />
+        <activity
+            android:name=".displaySQLite"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
